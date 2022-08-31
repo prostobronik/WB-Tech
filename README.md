@@ -18,7 +18,7 @@
 ---
 
 Онлайн сайт (GitHud Pages)
-<a href = "https://gulpjs.com/docs/en/getting-started/quick-start">GitHud Pages</a>
+<a href = "https://prostobronik.github.io/web-tech-2/">GitHud Pages</a>
 
 
 ### :hammer_and_wrench: Используемые технологии:
