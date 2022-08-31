@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    height: 4.5vh;
+    width: 95vw;
+
+    &__logo {
+      // margin-top: 1vh;
+      margin-left: 2.5vw;
+    }
+
+    &__nav {
+        padding-right: 2.5vw;
+        width: 31vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__link {
+        font-family: "SF Compact Display";
+        font-weight: 500;
+        font-size: 2.2vh;
+        line-height: 2.9vh;
+        text-transform: uppercase;
+        color: #3d9090;
+        &:hover {
+            font-weight: bold;
+        }
+    } 
+}

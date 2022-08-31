@@ -1,0 +1,85 @@
+---
+layout: default
+title: Landing
+---
+<main class="main">
+   <div class="main__content">
+       <div class="main__about">
+           <p>
+               Collection of&nbsp;lighting is&nbsp;inspired by&nbsp;the
+               geometric works of&nbsp;the great Suprematist artists
+               Kissitzky and Kazimir Malevich.
+               <br /><br />
+               Suprematism is&nbsp;a&nbsp;modernist movement
+               in&nbsp;the art of&nbsp;the early twentieth century,
+               focused on&nbsp;the basic geometric forms, such
+               as&nbsp;circles, squares, lines and rectangles. The
+               geometric structure of&nbsp;the lamps will always look
+               like a&nbsp;small art objects in&nbsp;your house.
+           </p>
+       </div>
+       <div class="main__feature">
+           <div class="feature__general">
+               <div class="feature__wrapper">
+                   <div class="feature__text">
+                       <p class="feature__material">
+                           Material: <span></span>
+                       </p>
+                       <p class="feature__dimensions">
+                           Dimensions (cm): <span></span>
+                       </p>
+                       <p class="feature__netWeight">
+                           Net Weight: <span></span>
+                       </p>
+                       <p class="feature__electrification">
+                           Electriflication: <span></span>
+                       </p>
+                   </div>
+               </div>
+           </div>
+           <div class="feature__lamp">
+               <img class="feature__image" alt="lamp" />
+           </div>
+           <div class="slider">
+               <div class="slider__list"></div>
+               <div class="slider__footer">
+                   <button
+                       class="button button__light button__light-active"
+                   ></button>
+                   <button class="button button__dark"></button>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="preview">
+       <picture>
+           <source
+               type="image/webp"
+               srcset="./assets/images/previewRoom2x.webp 2x"
+           />
+           <img
+               src="../assets/images/previewRoom.png"
+               srcset="../assets/images/previewRoom2x.png 2x"
+               alt="preview-room-light"
+               class="preview__room active"
+           />
+           </picture>
+
+           <picture>
+           <source
+               type="image/webp"
+               srcset="../assets/images/previewRoom-dark2x.webp 2x"
+           />
+           <img
+               src="../assets/images/previewRoom-dark.png"
+               srcset="../assets/images/previewRoom-dark2x.png 2x"
+               alt="preview-room-dark"
+               class="preview__room"
+           />
+       </picture>
+
+       <div class="preview__container">
+           <img alt="preview-lamp" class="preview__lamp" />
+       </div>
+   </div>
+</main>

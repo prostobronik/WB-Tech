@@ -1,0 +1,44 @@
+.feature {
+    &__general {
+        margin-top: 1vw;
+        width: 23vw;
+        margin-left: -3.5vw;
+    }
+    &__wrapper {
+        position: relative;
+        width: 100%;
+        padding-bottom: 100%;
+        background-color: #e4d7b9;
+        border-radius: 50%;
+        p {
+            font-family: "SF Compact Display";
+            font-size: 1vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.3vw;
+            letter-spacing: 0.055em;
+            margin-bottom: 1vh;
+            span {
+                font-family: "SF Compact Display";
+                font-weight: 100;
+                font-size: 1vw;
+                line-height: 1.31vw;
+                letter-spacing: 0.055em;
+                color: #000;
+                text-transform: capitalize;
+            }
+        }
+    }
+    &__text {
+        position: absolute;
+        overflow-y: auto;
+        width: 65%;
+        height: 50%;
+        left: 22%;
+        top: 29%;
+    }
+    &__lamp {
+        width: 17vw;
+        height: 40vh;
+    }
+}
